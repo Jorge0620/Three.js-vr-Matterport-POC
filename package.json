@@ -1,0 +1,26 @@
+{
+  "name": "panos",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "license": "PRIVATE",
+  "source": "src/index.html",
+  "private": true,
+  "scripts": {
+    "dev": "parcel",
+    "clean": "rm -rf .parcel-cache dist node_modules",
+    "build": "parcel build"
+  },
+  "dependencies": {
+    "three": "^0.150.1",
+    "three.meshline": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.6",
+    "@types/three": "^0.149.0",
+    "concurrently": "^7.6.0",
+    "http-server": "^14.1.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5",
+    "parcel": "latest"
+  }
+}
